@@ -1,4 +1,7 @@
 # Explosuress
+
+[![NuGet Status](https://img.shields.io/nuget/v/Explosuress)](https://www.nuget.org/packages/Explosuress/)
+
 Closure-free C# Expressions.
 
 **Explosuress** processes an Expression Tree and removes all closures by evaluating and replacing them with corresponding values. This operation reduces size and memory footprint of the tree.
