@@ -5,14 +5,26 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <Product>Explosuress</Product>
+    <PackageId>Explosuress</PackageId>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
     <Authors>Andrey Chechel</Authors>
-    <Description>Transforms Expression Trees to become closure-free</Description>
-    <Copyright>MIT</Copyright>
+    <Copyright>Copyright © Andrey Chechel 2020</Copyright>
+    <Description>Transforms Expression Trees to become closure-free.</Description>
+    <PackageTags>explosuress expression expression-tree lambda closure performance memory optimization</PackageTags>
+    <RepositoryUrl>https://github.com/AndreyChechel/Explosuress</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/AndreyChechel/Explosuress</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   
   <PropertyGroup>
     <LangVersion>8.0</LangVersion>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
 </Project>
