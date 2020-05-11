@@ -27,7 +27,7 @@ x => (value(Explosuress.Demo.Program+<>c__DisplayClass0_0).local.Field == x)
 var closureFreeExpr = expression.Explosuress();
 ```
 
-This is how the structure will look like without it:
+This is how the closure-free structure will look like:
 ```
 x => (123 == x)
 ```
