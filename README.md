@@ -23,7 +23,7 @@ x => (value(Explosuress.Demo.Program+<>c__DisplayClass0_0).local.Field == x)
 ```
 
 **Explosuress** can remove the closure:
-```
+```cs
 var closureFreeExpr = expression.Explosuress();
 ```
 
